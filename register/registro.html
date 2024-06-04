@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="\css\registro.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registro</h1>
+        <form id="registerForm">
+            <input type="text" id="name" placeholder="Nombre" required><br>
+            <input type="text" id="username" placeholder="Username" required><br>
+            <input type="password" id="password" placeholder="Contraseña" required><br>
+            <input type="password" id="confirmPassword" placeholder="Confirmar Contraseña" required><br>
+            <button type="submit">Registrarse</button>
+        </form>
+        <div class="login-link">
+            <p>¿Ya tienes una cuenta? <a href="\login"id="loginLink">Inicia sesión aquí</a></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="\js\client.js"></script>
+</body>
+</html>
